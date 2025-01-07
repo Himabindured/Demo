@@ -1,0 +1,66 @@
+Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+
+Ans: The data type is defined as the kind of data that is stored in the variable.
+
+*Primitive Datatypes (mutable)
+-----------------
+->it is mutable
+->it can store single value
+1.Number
+it stores all the types of numbers like integers,floating,etc.
+let num1=10;
+console.log(num1,typeof(num1))
+
+let num2=10.12323;
+console.log(num1,typeof(num2))
+
+let num3=10e3;
+console.log(num3,typeof(num3))
+
+2.String
+String is defined as the sequence of characters
+let str1="double quotes";
+console.log(str1,typeof(str1))
+
+let str2='single quote';
+console.log(str2,typeof(str2))
+
+let str3=template literals
+console.log(str3,typeof(str3))
+
+3.Boolean
+It returns True or False
+
+let bool1=true;
+console.log(bool1,typeof(bool1));
+
+let bool2=false;
+console.log(bool2,typeof(bool2))
+
+4.undefined
+Variable is declared but not initialized
+
+let a;
+console.log(a,typeof(a))
+
+5.null
+Null is taken as object in Javascript
+
+let x=null;
+console.log(x,typeof(x))
+
+6.bigint
+7.symbol
+
+
+*Non primitive (immutable)
+-------------
+->it is immutable
+->it can store multiple values
+1.class
+2.object
+3.function
+4.array
+5.map
+6.set
+7.math,date,json
