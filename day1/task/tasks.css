@@ -1,0 +1,93 @@
+body {
+    background-color:  #f9b02a	;
+  }
+  
+ 
+  .logo {
+   position:fixed;
+    top: 30px;
+    left: 50px;
+    width: 300px; 
+    height: auto;
+  }
+
+  .img{
+    position: fixed; 
+  bottom: 50px; 
+  right: 1px;
+  width: 700px; 
+  height: auto;
+
+  }
+  .custom-font {
+    border: 3px dashed #333;
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed; 
+  bottom: 400px; 
+  left: 100px; 
+  font-family: 'Agency FB'; 
+  font-size: 20px;
+  color: #333;
+  }
+.font{
+  position: absolute; 
+  bottom: 20px; 
+  left: 90px; 
+  font-family: 'Alfa Slab One', serif;
+  text-shadow: 2px 2px 5px rgb(245, 249, 249); 
+  font-size: 114.3px; 
+  font-weight: bold;
+  
+  color: #271506;
+}
+.font1{
+  position: absolute; 
+  bottom: 110px; 
+  left: 90px; 
+  font-family: 'Alfa Slab One', serif;
+  text-shadow: 2px 2px 5px rgb(245, 249, 249); 
+  font-size: 70px; 
+  font-weight:10; 
+  
+  color: #271506;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: flex-end; 
+  padding: 20px 50px;
+  margin-top: 60px; 
+}
+
+.navbar a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #563314; 
+  text-decoration: none;
+  margin: 0 20px;
+  transition: color 0.3s ease;
+}
+
+
+.delivery {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-top: 20px; 
+  margin-right: 100px; 
+  font-size: 20px;
+  color: #563314; 
+  font-weight: bold;
+}
+
+
+.delivery-number {
+  font-size: 16px;
+  color: #563314;
+  margin-left: 10px; 
+}

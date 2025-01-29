@@ -1,0 +1,97 @@
+/* Base styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #8e44ad, #3498db);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background: #ffffff;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+ 
+  }
+  form {
+        text-align: left;
+      }
+      
+  
+      label {
+        font-size: 14px;
+        color: #555;
+      }
+      input {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        outline: none;
+        font-size: 14px;
+      }
+      
+  
+      input[type="email"],
+      input[type="tel"] {
+        border-bottom: 2px solid black;
+        margin-bottom: 20px;
+      }
+  
+      button {
+        width: 100%;
+        padding: 10px;
+        background: linear-gradient(to right, #8e44ad, #3498db);
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      
+ 
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    background: #ddd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .facebook {
+    background: #3b5998;
+  }
+  
+  .twitter {
+    background: #1da1f2;
+  }
+  
+  .google {
+    background: #db4437;
+  }
+  
+  .icon:hover {
+    opacity: 0.8;
+  }
+  

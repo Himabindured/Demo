@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <table border="2" cellpadding="10px" cellspacing="0px">
+        <thread>
+            <tr>
+                <th>s1.no</th>
+                <th>name</th>
+                <th>company</th>
+                <th>salary</th>
+                <th>city</th>
+                <th>area</th>
+            </tr>
+        </thread>
+        <tbody id="store"></tbody>
+    </table>
+ <script>
+    let user=[{
+        empid:1,
+        empname:'deekshi',
+        empcompany:'meta',
+        empsalary:'200000',
+
+        empaddress :{
+          empcity:'hyderabad',
+          emparea:'xyz',
+        
+    }
+}
+    ];
+      user.map(user=>{
+        let store = document.getElementById("store");
+        store.innerHTML+=`
+        <tr>
+            <td>${user.empid}</td>
+             <td>${user.empname}</td>
+              <td>${user.empcompany}</td>
+               <td>${user.empsalary}</td>
+                <td>${user.empaddress.emparea}</td>
+                <td>${user.empaddress.empcity}</td>
+        </tr>
+        `
+      })
+
+    
+ </script>
+
+    <!-- <form>
+        <div class="formgroup">
+
+        </div>
+        <div class = "formgroup">
+            <label for="uname">username : </label>
+            <input type="text" id="uname" placeholder="enter username">
+            <label for="upass">Password : </label>
+            <input type="password" id="upass" placeholder="enter password">
+            <input type = "checkbox" id="check">
+            <span id="show">show password</span>
+            <button onclick="submit">submit</button>
+        </div>
+    </form> -->
+    <!-- <script src="./dom1.js"></script> -->
+    <!-- <h1 id="demo">Header</h1> -->
+    <!-- <div class="test">red</div>
+    <div class="test">blue</div>
+    <div class="test">yellow</div>
+    <div class="test">pink</div>
+    <div class="test">green</div>
+    <script src="./dom.js"></script> -->
+   
+</body>
+</html>

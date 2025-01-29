@@ -1,21 +1,21 @@
 //without parameters
-function demo(){
-    console.log("function is executing")
-}
-demo();
+// function demo(){
+//     console.log("function is executing")
+// }
+// demo();
 
-//!function with parameters and arguments
-// !let a=10; //parameter, 10=arguments
-5,6
-8,9
-3,4
+// //!function with parameters and arguments
+// // !let a=10; //parameter, 10=arguments
+// 5,6
+// 8,9
+// 3,4
 
-function add(a, b){
-    console.log(a+b);
+// function add(a, b){
+//     console.log(a+b);
 
-}
-add(5,6);
-add(3, 4);
+// }
+// add(5,6);
+// add(3, 4);
 
 //anonyumus function
 // function(){
@@ -57,13 +57,36 @@ add(3, 4);
 
 // console.log(y(3,4));
 // higher order function
-function hof(a){
-    return a();
+// function hof(a){
+//     return a();
+// }
+// let x = hof(function(){return "callback function"});
+// console.log(x);
+
+// let y = function(){return "call function"};
+// console.log(y());
+
+// let users = []
+
+//closure
+
+function x(){
+    let a = 10;
+    const b = 20;
+    console.log(a, b);
+    function y(){
+        let p = "js"
+        var q = "reactjs"
+        console.log(p, q);
+        function z(){
+            const username = "bindu"
+            console.log(username);
+            console.log(a);
+            console.log(q);
+        }
+        z();
+    }
+    y();
+
 }
-let x = hof(function(){return "callback function"});
-console.log(x);
-
-let y = function(){return "call function"};
-console.log(y());
-
-let users = []
+x();
