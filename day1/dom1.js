@@ -62,21 +62,23 @@
 //     console.log(event);
 // });
 
-let userDetails = [{
-         empid :1,
-         empcompany:'xyz',
-         empsalary:20000,
+// let userDetails = [{
+//          empid :1,
+//          empcompany:'xyz',
+//          empsalary:20000,
         
-        empaddress:{
-        city:"Hyderabad",
-        area:"abc",
+//         empaddress:{
+//         city:"Hyderabad",
+//         area:"abc",
         
-        }
-       }]
+//         }
+//        }]
      
     //  console.log(userDetails.empid);
     //  for(let i=0;i<usersDetails.length;i++){
-        console.log(userDetails);
+        // console.log(userDetails);
      
     // console.log(userDetails.address.city);
     // console.log(userDetails.address.pincode.pin1);
+
+    
